@@ -1,0 +1,28 @@
+# Environment
+.env
+*.env.local
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.db
+*.db-journal
+
+# Node
+node_modules/
+dist/
+build/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
+
+# YOLO model weights (auto-downloaded on first use by ultralytics, ~6MB, no need to commit)
+*.pt
+backend/yolov8n.pt
